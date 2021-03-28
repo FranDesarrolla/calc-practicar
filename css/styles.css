@@ -1,0 +1,111 @@
+*   {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: radial-gradient(circle at 50% -20.71%, #ffffa1 0, #f5ffa0 6.25%, #e4ffa0 12.5%, #d2ffa1 18.75%, #bdffa3 25%, #a7fda6 31.25%, #8cfaaa 37.5%, #6cf7af 43.75%, #3cf2b5 50%, #00edbc 56.25%, #00e8c6 62.5%, #00e4d0 68.75%, #00dfdc 75%, #00dbe9 81.25%, #00d7f5 87.5%, #00d3ff 93.75%, #00d0ff 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div-bg {
+    background-color: rgb(79, 212, 205)
+}
+
+.div-md {
+    display: block;
+    margin: 200px 650px 200px 650px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 50px;
+    box-shadow: 0px 5px 5px 0px black;
+}
+
+.letra {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mas {
+    text-align: center;
+}
+
+#boton {
+    border: none;
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0px auto;
+    display: block;
+}
+
+#x {
+    box-shadow: 0px 1px 1px 0px black;
+    border: none;
+    margin: 0px auto;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+}
+
+#y {
+    box-shadow: 0px 1px 1px 0px black;
+    border: none;
+    margin: 0px auto;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 0 5px 0;
+}
+
+#p-cam {
+    margin: 20px 0px 15px 00px;
+    background-color: rgb(146, 89, 204);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 2px 0px black;
+}
+
+#operacion {
+    margin: 0px auto;
+    display: block;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+}
+
+option {
+    font-size: 15px;
+}
+
+.rompe {
+    margin: 20px 0 20px 0;
+}
+
+.botonsito {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 16px 5px 16px;
+    margin-top: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+}
+
+button:hover{
+    transition: 1s white;
+}
+
+.div-md-md {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px 25px 15px 25px;
+}
