@@ -80,3 +80,11 @@
             let resulti = document.getElementById("p-cam");
             resulti.innerText = porConcretada;
     });
+
+    let boton = document.getElementById("boton");
+	boton.addEventListener("click", ()=> {
+
+            var primerParrao = document.querySelectorAll("p")[0];
+            primerParrao.parentNode.removeChild(primerParrao);
+            j++;
+    });
